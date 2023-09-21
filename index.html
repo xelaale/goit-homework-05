@@ -58,7 +58,9 @@
       <section class="first-section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="button" type="button">Order Service</button>
+          <button class="button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -482,5 +484,44 @@
         </div>
       </div>
     </footer>
+
+    <!-- Modal -->
+   <div class="backdrop is-hidden" data-modal>
+    <div class="modal"> <button class="modal-close" type="button" data-modal-close>X</button>
+      <h2>Leave your contacts and we will call you back</h2>
+     
+      <div><form name="contact-form"><label for="name">Name<input id="name" type="text" name="name"></label></form>
+           </div>    
+       
+     <div><form name="contact-form"><label for="phone">Phone<input id="phone"  type="text" name="tel"></label></form>
+          </div>
+        
+        
+      <div><form name="contact-form"><label>Email<input type="text" name="mail"></label></form>
+      </div>
+        
+      
+      <div><form name="contact-form"><label for="user-comment">Comment</label>
+      <textarea id="user-comment" name="user-comment"  placeholder="Text input"></textarea></form>
+</div>
+     
+
+<div><label for="privacy-policy">I accept the terms and conditions of the Privacy Policy
+<input id="privacy-policy" type="checkbox"/></label></form></div>
+
+   
+   
+   
+   
+    </div>
+   
+  </div>
+   
+   
+   
+   
+   
+    
+    </div>
   </body>
 </html>
