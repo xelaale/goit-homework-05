@@ -716,7 +716,7 @@ img {
     fill: transparent;
 }
 
-.checked:checked+.privacy-policy {
+.checked:checked+.privacy-policy+.icon-checked {
     fill: #F4F4FD;
     background-color: #404bbf;
     border: none;
