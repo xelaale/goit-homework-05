@@ -496,27 +496,34 @@
         <div class="modal-field">
           <form name="contact-form" autocomplete="off">
             <label class="client-info" for="name">Name</label>
-            <input class="modal-input" id="name" type="text" name="name" />
-          </form>
+            <div class="modal-input-wrap">
+            <input class="modal-input" id="name" type="text" name="name" /><svg class="modal-icon" width="18" height="18">
+                  <use href="./images/icons.svg#icon-name"></use>
+                </svg>
+          </form></div>
         </div>
 
         <div class="modal-field">
           <form name="contact-form" autocomplete="off">
             <label class="client-info" for="tel">Phone</label>
-            <input class="modal-input" id="tel" type="tel" name="tel" />
-          </form>
+            <div class="modal-input-wrap"><input class="modal-input" id="tel" type="tel" name="tel" />
+          <svg class="modal-icon" width="18" height="24">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg></form></div>
         </div>
 
         <div class="modal-field">
           <form name="contact-form" autocomplete="off">
             <label class="client-info" for="email">Email</label>
+            <div class="modal-input-wrap">
             <input
               class="modal-input"
               id="email"
               type="email"
               name="user-email"
-            />
-          </form>
+            /><svg class="modal-icon" width="18" height="24">
+                  <use href="./images/icons.svg#icon-email"></use></svg>
+          </form></div>
         </div>
 
         <div class="modal-comment">
@@ -532,12 +539,14 @@
         </div>
 
         <div class="modal-privacy">
-          <form name="contact-form">
+         
+            <input class="input-policy" id="privacy-policy" type="checkbox" />
+            
             <label class="label-policy" for="privacy-policy"
               >I accept the terms and conditions of the
               <span class="privacy-policy">Privacy Policy</span> </label
-            ><input class="input-policy" id="privacy-policy" type="checkbox" />
-          </form>
+            >
+         
         </div>
 
         <div class="modal-button">
